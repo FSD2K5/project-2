@@ -1,0 +1,28 @@
+.slick-slider .slick-prev,
+.slick-slider .slick-next {
+    border: none;
+    width: 70px;
+    height: 35px;
+    border-radius: 35px;
+    background-color: var(--bs-gray-400);
+    color: var(--bs-dark);
+    font-size: 1.4rem;
+    font-weight: 500;
+    cursor: pointer;
+    position: absolute;
+    bottom: -70px;
+}
+
+.slick-slider .slick-prev:hover,
+.slick-slider .slick-next:hover {
+    background-color: var(--bs-primary);
+    color: var(--bs-white);
+}
+
+.slick-slider .slick-prev {
+    left: 0;
+}
+
+.slick-slider .slick-next {
+    right: 0;
+}
