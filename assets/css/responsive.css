@@ -11,9 +11,7 @@
     .header .banner__search {
         width: 100%;
     }
-    .container {
-        margin-bottom: -90px;
-    }
+
     .popular .popular__heading {
         flex-direction: column;
         gap: 10px;
